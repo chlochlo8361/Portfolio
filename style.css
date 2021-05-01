@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    margin-top: 3rem;
+}
+html {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(6, 151, 91) 0%, rgb(31, 185, 126) 43%, rgb(19, 201, 186) 100%);
+}
+h1 {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+h4 {
+    text-align: center;
+    margin: .5rem;
+}
+.intro {
+    margin:  auto;
+    text-align: left;
+    width: 75vw;
+}
+.main-container {
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+    margin: 3rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.resume {
+    flex: 1;
+    margin: 2rem;
+}
+.portfolio-1 {
+    flex: 1;
+    margin-right: 2rem;
+}
+.portfolio-2 {
+    flex: 1;
+    margin-right: 2rem;
+}
+.resume-png {
+    width: 100%;  
+    height: auto;
+}
