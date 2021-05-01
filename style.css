@@ -36,7 +36,7 @@ h4 {
     justify-content: center;
     align-items: center;
 }
-.resume {
+.flex-container2 {
     flex: 1;
     margin: 2rem;
 }
@@ -51,4 +51,14 @@ h4 {
 .resume-png {
     width: 100%;  
     height: auto;
+}
+img:hover {
+    border: .5rem solid rgb(31, 185, 126);
+}
+
+@media only screen and (max-width: 750px) {
+    .flex-container {
+        display: block;
+    }
+    
 }
