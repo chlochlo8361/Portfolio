@@ -59,6 +59,19 @@ img:hover {
 @media only screen and (max-width: 750px) {
     .flex-container {
         display: block;
+    }   
+}
+@media only screen and (max-width: 620px) {
+    .intro {
+        margin: auto;
+        text-align: center;
+        width: 67vw;
     }
-    
+}
+@media only screen and (max-width: 410px) {
+    .intro {
+        margin: auto;
+        text-align: center;
+        width: 55vw;
+    }
 }
